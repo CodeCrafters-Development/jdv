@@ -4,7 +4,7 @@ import { navlinks } from "../lib/data";
 const Header = () => {
   return (
     <header className="z-[999] relative ">
-      <nav className="fixed w-full h-[100px] flex items-center gap-x-10 bg-white">
+      <nav className="fixed px-20 w-full h-[100px] flex items-center gap-x-10 bg-white">
         <img
           src="/assets/images/jdv-logo.png"
           alt="JDV"

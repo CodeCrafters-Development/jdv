@@ -1,10 +1,11 @@
+import Footer from "../components/footer";
 import Header from "../components/header";
 
 const Home = () => {
   return (
-    <main className="px-20">
+    <main className="">
       <Header />
-      <section className="h-screen ">
+      <section className="h-screen px-20">
         <div className="h-[100px]"></div>
         <div className="bg-primary w-full h-[80%]">
           <div className="h-full w-[40%] flex items-start justify-center flex-col gap-y-4">
@@ -26,6 +27,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 };
