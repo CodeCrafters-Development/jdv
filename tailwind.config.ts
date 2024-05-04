@@ -6,8 +6,13 @@ const config: Config = {
   theme: {
     fontFamily: {
       NeueMontreal: ["NeueMontreal-Light", "sans"],
+      PlayfairDisplay: ["Playfair Display", "sans"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "var(--primary)",
+      },
+    },
   },
   plugins: [],
 };
