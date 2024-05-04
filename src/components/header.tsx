@@ -1,8 +1,30 @@
+import { LuChevronDown } from "react-icons/lu";
+import { navlinks } from "../lib/data";
+
 const Header = () => {
   return (
-    <header>
-      <nav>
-        <img src="/assets/jdv-logo.png" alt="JDV" height={100} width={100} />
+    <header className="z-[999] relative ">
+      <nav className="fixed w-full h-[100px] flex items-center gap-x-10 bg-white">
+        <img
+          src="/assets/images/jdv-logo.png"
+          alt="JDV"
+          height={70}
+          width={70}
+        />
+        <ul className="flex gap-3 text-base">
+          {navlinks.map((item, index) => (
+            <a key={index} href={item.href}>
+              <span
+                className={`flex items-center justify-center ${
+                  item.hasSub && "gap-y-[3px]"
+                }`}
+              >
+                {item.name}
+                {item.hasSub && <LuChevronDown />}
+              </span>
+            </a>
+          ))}
+        </ul>
       </nav>
     </header>
   );
