@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "NeueMontreal-Light";
+  src: local("NeueMontreal-Light"),
+    url("./fonts/NeueMontreal-Light.otf") format("opentype");
+}
