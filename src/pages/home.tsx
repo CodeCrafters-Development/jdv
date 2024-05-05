@@ -1,13 +1,8 @@
+import React from "react";
+import ProductCard from "../components/product-card";
 import { products } from "../lib/data";
 
 const Home = () => {
-  const getRoundedNumber = (price: number): number => {
-    const installmentPrice = price / 3;
-    const rounded = Math.round(installmentPrice * 100) / 100;
-
-    return rounded;
-  };
-
   return (
     <main className="">
       <section className="h-screen px-20">
@@ -44,30 +39,9 @@ const Home = () => {
         <h2 className="font-PlayfairDisplay text-5xl">Recently Released</h2>
         <div className="w-full flex items-center justify-center gap-x-[34px]">
           {products.map((item, index) => (
-            <div key={index} className="flex flex-col w-[382px] gap-y-[19px]">
-              <img
-                src={item.images[0].imgUri}
-                className="w-[382px] h-[326px] object-cover"
-              />
-              <div className="flex flex-col">
-                <span className="text-xs font-bold">{item.id}</span>
-                <span className="text-[20px] font-medium font-NeueMontreal">
-                  {item.productName}
-                </span>
-                <div className="flex items-center gap-x-[10px]">
-                  <span className="text-[18px] font-normal">
-                    LKR {item.price}
-                  </span>
-                  <span className="text-xs font-normal">
-                    or LKR {getRoundedNumber(item.price)} with
-                  </span>
-                  <img
-                    src={item.installment[0].brandImg}
-                    className="h-[18px]"
-                  />
-                </div>
-              </div>
-            </div>
+            <React.Fragment key={index}>
+              <ProductCard {...item} />
+            </React.Fragment>
           ))}
         </div>
         <div>
