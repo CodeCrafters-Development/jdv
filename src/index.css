@@ -10,7 +10,20 @@
     url("./fonts/NeueMontreal-Light.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "NeueMontreal-Medium";
+  src: local("NeueMontreal-Medium"),
+    url("./fonts/NeueMontreal-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeueMontreal-Bold";
+  src: local("NeueMontreal-LiBoldght"),
+    url("./fonts/NeueMontreal-Bold.otf") format("opentype");
+}
+
 :root {
   --primary: #f9eed8;
   --secondary: #140b0b;
+  --hero-backdrop: url("/assets/images/hero-backdrop.png");
 }
