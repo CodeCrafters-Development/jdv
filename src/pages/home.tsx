@@ -1,6 +1,5 @@
-import React from "react";
+import ProductArray from "../components/product-array";
 import { products } from "../lib/data";
-import ProductCard from "../components/product-card";
 
 const Home = () => {
   return (
@@ -49,21 +48,7 @@ const Home = () => {
         <h2 className="text-h2Mobile xl:text-h2Desktop font-PlayfairDisplay">
           Recently Released
         </h2>
-        <div className="w-full grid grid-cols-2 lg:grid-cols-3 gap-y-[34px] gap-x-[34px]">
-          {products.map((item, index) => (
-            <React.Fragment key={index}>
-              <ProductCard {...item} />
-            </React.Fragment>
-          ))}
-          <div className="lg:col-span-3 flex items-center justify-center ">
-            <a
-              href="/"
-              className="bg-primary text-secondary font-NeueMontrealMedium w-full text-center py-4 lg:w-[282px]"
-            >
-              View Collection
-            </a>
-          </div>
-        </div>
+        <ProductArray productsList={products} link="/mens" />
       </section>
     </main>
   );
