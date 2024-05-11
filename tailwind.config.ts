@@ -14,6 +14,8 @@ const config: Config = {
       fontSize: {
         h1Mobile: "var(--h1-mobile)",
         h1Desktop: "var(--h1-Desktop)",
+        h2Mobile: "var(--h2-mobile)",
+        h2Desktop: "var(--h2-Desktop)",
       },
       colors: {
         primary: "var(--primary)",
