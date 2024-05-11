@@ -6,7 +6,7 @@ const Home = () => {
         <div className="w-full h-full flex max-xl:items-start max-xl:justify-center max-xl:z-0 xl:bg-primary xl:h-[80%]">
           <div className="max-xl:group max-xl:absolute max-xl:z-10 h-[80%] xl:h-full w-[80%] flex items-center xl:items-start justify-center flex-col gap-y-10 xl:gap-y-4">
             <div className="xl:mx-auto md:w-[50%] xl:w-[500px] h-fit xl:h-[50%] flex flex-col items-center gap-y-4 md:gap-y-5 xl:gap-y-0 xl:items-start xl:justify-evenly xl:bg-hero-backdrop">
-              <h1 className="font-PlayfairDisplay text-h1Mobile xl:text-h1Md font-semibold text-primary xl:text-secondary">
+              <h1 className="font-PlayfairDisplay text-h1Mobile xl:text-h1Desktop font-semibold text-primary xl:text-secondary">
                 Joy of Living
               </h1>
               <p className="max-xl:font-semibold max-xl:text-center text-primary xl:text-secondary">

@@ -11,6 +11,10 @@ const config: Config = {
       PlayfairDisplay: ["Playfair Display", "sans"],
     },
     extend: {
+      fontSize: {
+        h1Mobile: "var(--h1-mobile)",
+        h1Desktop: "var(--h1-Desktop)",
+      },
       colors: {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
