@@ -1,55 +1,34 @@
-import React from "react";
-import ProductCard from "../components/product-card";
-import { products } from "../lib/data";
-
 const Home = () => {
   return (
-    <main className="">
-      <section className="h-screen px-20">
-        <div className="h-[100px]"></div>
-        <div className="bg-primary w-full h-[80%] flex">
-          <div className="h-full flex-1 flex items-start justify-center flex-col gap-y-4">
-            <div className="mx-auto w-[500px] h-[50%] flex flex-col items-start justify-evenly bg-hero-backdrop">
-              <h1 className="font-PlayfairDisplay text-7xl font-medium">
-                Joy of Living .
-              </h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Blandit fermentum
-                posuere volutpat in lorem purus rhoncus laoreet sapien. Placerat
-                at turpis.
-              </p>
-              <div>
-                <a href="/">
-                  <span className="bg-secondary text-primary font-NeueMontrealMedium px-10 py-3">
-                    View Collection
-                  </span>
-                </a>
-              </div>
+    <main>
+      <section className="h-screen px-0">
+        <div className="h-[60px]"></div>
+        <div className="w-full h-full flex items-start justify-center z-0">
+          <div className="group absolute z-10 h-full w-[80%] flex items-center justify-center flex-col gap-y-10">
+            <h1 className="font-PlayfairDisplay text-h1Mobile md:text-h1Md font-semibold text-primary mix-blend-difference">
+              Joy of Living
+            </h1>
+            <p className="font-semibold text-center text-primary">
+              Lorem ipsum dolor sit amet consectetur. Blandit fermentum posuere
+              volutpat in lorem purus rhoncus laoreet sapien. Placerat at
+              turpis.
+            </p>
+            <div>
+              <a href="/">
+                <span className="bg-primary text-secondary font-NeueMontrealMedium px-10 py-3">
+                  View Collection
+                </span>
+              </a>
             </div>
           </div>
-          <video autoPlay muted loop className="grayscale">
-            <source src="/assets/videos/left.mp4" />
-          </video>
-          <video autoPlay muted loop className="grayscale">
+          <video
+            autoPlay
+            muted
+            loop
+            className="group relative grayscale brightness-50 h-[85vh] rounded-md flex items-center justify-center"
+          >
             <source src="/assets/videos/right.mp4" />
           </video>
-        </div>
-      </section>
-      <section className="h-[100vh] px-20 py-10 flex items-center justify-start flex-col gap-y-10">
-        <h2 className="font-PlayfairDisplay text-5xl">Recently Released</h2>
-        <div className="w-full flex items-center justify-center gap-x-[34px]">
-          {products.map((item, index) => (
-            <React.Fragment key={index}>
-              <ProductCard {...item} />
-            </React.Fragment>
-          ))}
-        </div>
-        <div>
-          <a href="/">
-            <span className="bg-primary text-secondary font-NeueMontrealMedium px-10 py-3">
-              View Collection
-            </span>
-          </a>
         </div>
       </section>
     </main>
