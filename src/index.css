@@ -27,7 +27,7 @@
   --secondary: #140b0b;
   --hero-backdrop: url("/assets/images/hero-backdrop.png");
   --h1-mobile: 48px; /* 5xl */
-  --h1-Desktop: 60px; /* 6xl */
+  --h1-Desktop: 96px; /* 6xl */
   --h2-mobile: 30px; /* 3xl */
-  --h2-Desktop: 36px; /* 4xl */
+  --h2-Desktop: 64px; /* 4xl */
 }
