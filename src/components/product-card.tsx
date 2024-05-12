@@ -26,13 +26,14 @@ const ProductCard = ({
           {productName}
         </span>
         <span className="text-[14px] lg:text-[20px]">
-          Rs{" " + new Intl.NumberFormat().format(price)}
+          LKR{" " + new Intl.NumberFormat().format(price)}
         </span>
         <div className="lg:flex gap-x-1">
           <span className="text-xs lg:text-sm text-gray-500/60">
             or pay in 3 x{" "}
             <span className="font-bold">
-              Rs {" " + new Intl.NumberFormat().format(getRoundedNumber(price))}
+              LKR{" "}
+              {" " + new Intl.NumberFormat().format(getRoundedNumber(price))}
             </span>
           </span>
           <span className="flex items-center gap-x-1 text-xs lg:text-sm text-gray-500/60">
