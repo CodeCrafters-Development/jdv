@@ -64,7 +64,7 @@ const Home = () => {
           />
           <div className="absolute left-6 z-20 h-full w-[80%] flex items-start justify-center flex-col gap-y-4">
             <h2 className="h2-text text-secondary">Our Latest Collection</h2>
-            <p className="p-text w-[90%] lg:text-[20px] mb-3 font-NeueMontrealMedium text-secondary">
+            <p className="p-text w-[90%] lg:w-[80%] lg:text-[20px] mb-3 font-NeueMontrealLight font-bold text-secondary">
               Lorem ipsum dolor sit amet consectetur. Cras diam massa venenatis
               donec ut ut elementum leo et.
             </p>
