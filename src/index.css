@@ -28,6 +28,14 @@
   --hero-backdrop: url("/assets/images/hero-backdrop.png");
   --h1-mobile: 48px; /* 5xl */
   --h1-Desktop: 96px; /* 6xl */
-  --h2-mobile: 30px; /* 3xl */
+  --h2-mobile: 24px; /* 3xl */
   --h2-Desktop: 64px; /* 4xl */
+}
+
+.h2-text {
+  @apply font-PlayfairDisplay font-semibold text-h2Mobile sm:text-[40px] md:text-[36px] lg:text-h2Desktop md:font-medium;
+}
+
+.p-text {
+  @apply text-xs;
 }
