@@ -1,4 +1,3 @@
-import CustomButton from "../components/custom-btn";
 import ProductArray from "../components/product-array";
 import { productsWomen, productsMen } from "../lib/data";
 
