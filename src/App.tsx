@@ -1,21 +1,32 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/home";
-import Header from "./components/header";
-import Footer from "./components/footer";
+import BaseLayout from "./layout/base-layout";
+import Women from "./pages/women";
+import Kids from "./pages/kids";
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />,
+      element: (
+        <BaseLayout>
+          <Home />
+        </BaseLayout>
+      ),
+    },
+    {
+      path: "/women",
+      element: <Women />,
+    },
+    {
+      path: "/kids",
+      element: <Kids />,
     },
   ]);
 
   return (
     <>
-      <Header />
       <RouterProvider router={router} />
-      <Footer />
     </>
   );
 }
