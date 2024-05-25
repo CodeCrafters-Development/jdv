@@ -1,4 +1,4 @@
-type SubNavigationLinkTypes = {
+export type SubNavigationLinkTypes = {
   name: string;
   href: string;
 };
@@ -26,4 +26,9 @@ export type ProductType = {
     imgUri: string;
     isMain?: boolean;
   }[];
+};
+
+export type pageMetadataTypes = {
+  title: string;
+  description: string;
 };
