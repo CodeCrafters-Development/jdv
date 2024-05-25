@@ -2,7 +2,7 @@ import UpComing from "../components/up-coming";
 
 const Kids = () => {
   return (
-    <main className="h-screen w-screen flex flex-col items-center justify-around p-5 md:p-10">
+    <main className="h-screen w-screen flex flex-col items-center justify-evenly  px-5 md:p-10">
       <UpComing
         title={
           <>

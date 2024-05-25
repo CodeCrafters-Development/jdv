@@ -2,7 +2,7 @@ import UpComing from "../components/up-coming";
 
 const Women = () => {
   return (
-    <main className="h-screen w-screen flex flex-col items-center justify-around  px-5 md:p-10 gap-y-5">
+    <main className="h-screen w-screen flex flex-col items-center justify-evenly  px-5 md:p-10">
       <UpComing
         title={
           <>
