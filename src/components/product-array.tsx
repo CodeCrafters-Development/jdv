@@ -4,7 +4,7 @@ import { ProductType } from "../lib/types";
 
 type ProductArrayType = {
   productsList: ProductType[];
-  link: string;
+  link?: string;
 };
 
 const ProductArray = ({ productsList, link }: ProductArrayType) => {
@@ -15,14 +15,16 @@ const ProductArray = ({ productsList, link }: ProductArrayType) => {
           <ProductCard {...item} />
         </React.Fragment>
       ))}
-      <div className="lg:col-span-3 flex items-center justify-center ">
-        <a
-          href={link}
-          className="bg-primary text-secondary font-NeueMontrealMedium w-full text-center py-4 lg:w-[282px]"
-        >
-          View Collection
-        </a>
-      </div>
+      {link && (
+        <div className="lg:col-span-3 flex items-center justify-center ">
+          <a
+            href={link}
+            className="bg-primary text-secondary font-NeueMontrealMedium w-full text-center py-4 lg:w-[282px]"
+          >
+            View Collection
+          </a>
+        </div>
+      )}
     </div>
   );
 };
