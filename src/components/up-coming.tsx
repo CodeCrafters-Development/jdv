@@ -9,7 +9,14 @@ type UpComingProps = {
 const UpComing = ({ title, description, link }: UpComingProps) => {
   return (
     <>
-      <img src="/assets/images/jdv-logo.png" alt="JDV" height={70} width={70} />
+      <a href="/">
+        <img
+          src="/assets/images/jdv-logo.png"
+          alt="JDV"
+          height={70}
+          width={70}
+        />
+      </a>
       <div className="relative z-10 bg-primary w-[95%] py-16 overflow-hidden">
         <h1 className="font-PlayfairDisplay z-10 tracking-[-5px] md:tracking-[-8px] text-h1Mobile md:text-h1Desktop text-center">
           {title}
