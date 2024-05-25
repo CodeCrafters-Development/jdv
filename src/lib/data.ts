@@ -1,4 +1,4 @@
-import { NavigationLinkTypes, ProductType } from "./types";
+import { NavigationLinkTypes, ProductType, pageMetadataTypes } from "./types";
 
 export const navlinks: NavigationLinkTypes[] = [
   { name: "Women", href: "/women", hasSub: false },
@@ -179,5 +179,23 @@ export const productsWomen: ProductType[] = [
         imgUri: "/assets/images/sub3.jpeg",
       },
     ],
+  },
+];
+
+export const pageMetadata: pageMetadataTypes[] = [
+  {
+    title: "Men",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Blandit fermentum posuere volutpat in lorem purus rhoncus laoreet sapien. Placerat at turpis lacus id mattis donec.",
+  },
+  {
+    title: "Shirts",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Blandit fermentum posuere volutpat in lorem purus rhoncus laoreet sapien. Placerat at turpis lacus id mattis donec.",
+  },
+  {
+    title: "T-Shirts",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Blandit fermentum posuere volutpat in lorem purus rhoncus laoreet sapien. Placerat at turpis lacus id mattis donec.",
   },
 ];
