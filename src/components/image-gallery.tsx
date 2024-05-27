@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import { ImageData } from "../lib/types";
 
 type ImageGalleryProps = {
-  slug?: string; //TODO: use slug to get image data
   images?: ImageData[];
 };
 
-const ImageGallery = ({ slug, images }: ImageGalleryProps) => {
+const ImageGallery = ({ images }: ImageGalleryProps) => {
   const mainImage = images?.find((image) => image.isMain);
   const [selectedImage, setSelectedImage] = useState(mainImage?.imgUri);
 

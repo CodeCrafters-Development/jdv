@@ -6,6 +6,7 @@ import { getRoundedNumber } from "../lib/utils";
 
 const Product = () => {
   const { slug } = useParams();
+  console.log(slug);
 
   const product = singleProduct;
   const [selectedSize, setSelectedSize] = useState(0);
@@ -15,7 +16,7 @@ const Product = () => {
       <section className="px-0 lg:px-20 pb-10">
         <div className="h-[60px] xl:h-[100px]"></div>
         <div className="flex flex-col md:flex-row items-center gap-y-3 md:gap-x-11">
-          <ImageGallery slug={slug} images={product.images} />
+          <ImageGallery images={product.images} />
           <div className="flex-1 w-full p-1 font-NeueMontrealMedium flex flex-col gap-y-9 max-md:px-5">
             <div className="flex flex-col gap-y-2">
               <p className="text-sm font-bold">{product.id}</p>
