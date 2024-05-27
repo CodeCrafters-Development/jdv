@@ -5,6 +5,7 @@ import Women from "./pages/women";
 import Kids from "./pages/kids";
 import ProductItems from "./pages/product-items";
 import { pageMetadata } from "./lib/data";
+import Product from "./pages/product";
 
 function App() {
   const router = createBrowserRouter([
@@ -37,6 +38,14 @@ function App() {
       element: (
         <BaseLayout>
           <ProductItems metadata={pageMetadata[2]} />
+        </BaseLayout>
+      ),
+    },
+    {
+      path: "/products/:slug",
+      element: (
+        <BaseLayout>
+          <Product />
         </BaseLayout>
       ),
     },
