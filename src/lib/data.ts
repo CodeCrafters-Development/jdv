@@ -18,6 +18,7 @@ export const productsMen: ProductType[] = [
   {
     id: "JDV 01",
     productName: "Black Leather with Chrome Handles",
+    slug: "black-leather-with-chrome-handles-1",
     isInStock: "In Stock",
     size: ["XS", "S", "M", "L", "XL", "XXL"],
     price: 4000,
@@ -43,8 +44,9 @@ export const productsMen: ProductType[] = [
     ],
   },
   {
-    id: "JDV 01",
+    id: "JDV 02",
     productName: "Black Leather with Chrome Handles",
+    slug: "black-leather-with-chrome-handles-2",
     isInStock: "In Stock",
     size: ["XS", "S", "M", "L", "XL", "XXL"],
     price: 4000,
@@ -70,8 +72,9 @@ export const productsMen: ProductType[] = [
     ],
   },
   {
-    id: "JDV 01",
+    id: "JDV 03",
     productName: "Black Leather with Chrome Handles",
+    slug: "black-leather-with-chrome-handles-3",
     isInStock: "In Stock",
     size: ["XS", "S", "M", "L", "XL", "XXL"],
     price: 4000,
@@ -100,8 +103,9 @@ export const productsMen: ProductType[] = [
 
 export const productsWomen: ProductType[] = [
   {
-    id: "JDV 01",
+    id: "JDV 04",
     productName: "Black Leather with Chrome Handles",
+    slug: "black-leather-with-chrome-handles-4",
     isInStock: "In Stock",
     size: ["XS", "S", "M", "L", "XL", "XXL"],
     price: 4000,
@@ -127,8 +131,9 @@ export const productsWomen: ProductType[] = [
     ],
   },
   {
-    id: "JDV 01",
+    id: "JDV 05",
     productName: "Black Leather with Chrome Handles",
+    slug: "black-leather-with-chrome-handles-5",
     isInStock: "In Stock",
     size: ["XS", "S", "M", "L", "XL", "XXL"],
     price: 4000,
@@ -154,8 +159,9 @@ export const productsWomen: ProductType[] = [
     ],
   },
   {
-    id: "JDV 01",
+    id: "JDV 06",
     productName: "Black Leather with Chrome Handles",
+    slug: "black-leather-with-chrome-handles-6",
     isInStock: "In Stock",
     size: ["XS", "S", "M", "L", "XL", "XXL"],
     price: 4000,
@@ -199,3 +205,32 @@ export const pageMetadata: pageMetadataTypes[] = [
       "Lorem ipsum dolor sit amet consectetur. Blandit fermentum posuere volutpat in lorem purus rhoncus laoreet sapien. Placerat at turpis lacus id mattis donec.",
   },
 ];
+
+export const singleProduct: ProductType = {
+  id: "JDV 01",
+  productName: "Black Leather with Chrome Handles",
+  slug: "black-leather-with-chrome-handles-1",
+  isInStock: "In Stock",
+  size: ["XS", "S", "M", "L", "XL", "XXL"],
+  price: 4000,
+  installment: [
+    {
+      id: 1,
+      name: "KOKO",
+      numOfInstallments: 3,
+      brandImg: "/assets/images/koko.png",
+    },
+  ],
+  images: [
+    {
+      imgUri: "/assets/images/sub1.jpeg",
+      isMain: true,
+    },
+    {
+      imgUri: "/assets/images/sub2.jpeg",
+    },
+    {
+      imgUri: "/assets/images/sub3.jpeg",
+    },
+  ],
+};
