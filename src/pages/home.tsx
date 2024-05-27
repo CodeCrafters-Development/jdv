@@ -1,13 +1,8 @@
 import ProductArray from "../components/product-array";
 import { productsWomen, productsMen } from "../lib/data";
+import { getRoundedNumber } from "../lib/utils";
 
 const Home = () => {
-  const getRoundedNumber = (price: number): number => {
-    const installmentPrice = price / 3;
-    const rounded = Math.round(installmentPrice * 100) / 100;
-
-    return rounded;
-  };
   return (
     <main>
       <section className="h-screen px-0 lg:px-20">
