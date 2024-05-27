@@ -10,9 +10,15 @@ export type NavigationLinkTypes = {
   subLinks?: SubNavigationLinkTypes[];
 };
 
+export type ImageData = {
+  imgUri: string;
+  isMain?: boolean;
+};
+
 export type ProductType = {
   id: string;
   productName: string;
+  slug: string;
   isInStock: "In Stock" | "Out of Stock";
   size: string[];
   price: number;
@@ -22,10 +28,7 @@ export type ProductType = {
     numOfInstallments: number;
     brandImg: string;
   }[];
-  images: {
-    imgUri: string;
-    isMain?: boolean;
-  }[];
+  images: ImageData[];
 };
 
 export type pageMetadataTypes = {
