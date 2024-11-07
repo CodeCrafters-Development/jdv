@@ -1,14 +1,26 @@
 import { useParams } from "react-router-dom";
 import ImageGallery from "../components/image-gallery";
-import { singleProduct } from "../lib/data";
+// import { singleProduct } from "../lib/data";
 import React, { useState } from "react";
 import { getRoundedNumber } from "../lib/utils";
+import { useProducts } from "../providers/productProvider";
+import { ProductType } from "../lib/types";
 
 const Product = () => {
-  const { slug } = useParams();
+  // const { slug } = useParams();
+  const { slug } = useParams<{ slug: string }>();
   console.log(slug);
+  const products = useProducts()
 
-  const product = singleProduct;
+    // Find product by slug
+    const product: ProductType | undefined = products.find((prod) => prod.slug === slug);
+
+      // Render a fallback if product is undefined
+  if (!product) {
+    return <p>Product not found.</p>; // or you could use a more styled component here
+  }
+
+  // const product = singleProduct;
   const [selectedSize, setSelectedSize] = useState(0);
 
   return (

@@ -6,6 +6,7 @@ import Kids from "./pages/kids";
 import ProductItems from "./pages/product-items";
 import { pageMetadata } from "./lib/data";
 import Product from "./pages/product";
+import { ProductsProvider } from "./providers/productProvider";
 
 function App() {
   const router = createBrowserRouter([
@@ -53,7 +54,9 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router} />
+      <ProductsProvider>
+        <RouterProvider router={router} />
+      </ProductsProvider>
     </>
   );
 }
