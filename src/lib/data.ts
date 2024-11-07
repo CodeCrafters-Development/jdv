@@ -99,6 +99,34 @@ export const productsMen: ProductType[] = [
       },
     ],
   },
+  {
+    id: "JDV 04",
+    productName: "Long sleeve turtleneck sweater",
+    slug: "long-sleeve-turtleneck-sweater",
+    isInStock: "In Stock",
+    size: ["XS", "S", "M", "L", "XL", "XXL"],
+    price: 3600,
+    installment: [
+      {
+        id: 1,
+        name: "KOKO",
+        numOfInstallments: 3,
+        brandImg: "/assets/images/koko.png",
+      },
+    ],
+    images: [
+      { imgUri: "/assets/images/recent4.jpeg", isMain: true },
+      {
+        imgUri: "/assets/images/sub1.jpeg",
+      },
+      {
+        imgUri: "/assets/images/sub2.jpeg",
+      },
+      {
+        imgUri: "/assets/images/sub3.jpeg",
+      },
+    ],
+  },
 ];
 
 export const productsWomen: ProductType[] = [
@@ -175,6 +203,93 @@ export const productsWomen: ProductType[] = [
     ],
     images: [
       { imgUri: "/assets/images/bag3.jpeg", isMain: true },
+      {
+        imgUri: "/assets/images/sub1.jpeg",
+      },
+      {
+        imgUri: "/assets/images/sub2.jpeg",
+      },
+      {
+        imgUri: "/assets/images/sub3.jpeg",
+      },
+    ],
+  },
+];
+
+export const cargoPants: ProductType[] = [
+  {
+    id: "JDV 06",
+    productName: "Modish cargo pant",
+    slug: "modish-cargo-pant",
+    isInStock: "In Stock",
+    size: ["XS", "S", "M", "L", "XL", "XXL"],
+    price: 4800,
+    installment: [
+      {
+        id: 1,
+        name: "KOKO",
+        numOfInstallments: 3,
+        brandImg: "/assets/images/koko.png",
+      },
+    ],
+    images: [
+      { imgUri: "/assets/images/pants1.jpeg", isMain: true },
+      {
+        imgUri: "/assets/images/sub1.jpeg",
+      },
+      {
+        imgUri: "/assets/images/sub2.jpeg",
+      },
+      {
+        imgUri: "/assets/images/sub3.jpeg",
+      },
+    ],
+  },
+  {
+    id: "JDV 07",
+    productName: "City stride cargo pant",
+    slug: "city-stride-cargo-pant",
+    isInStock: "In Stock",
+    size: ["XS", "S", "M", "L", "XL", "XXL"],
+    price: 5500,
+    installment: [
+      {
+        id: 1,
+        name: "KOKO",
+        numOfInstallments: 3,
+        brandImg: "/assets/images/koko.png",
+      },
+    ],
+    images: [
+      { imgUri: "/assets/images/pants2.jpeg", isMain: true },
+      {
+        imgUri: "/assets/images/sub1.jpeg",
+      },
+      {
+        imgUri: "/assets/images/sub2.jpeg",
+      },
+      {
+        imgUri: "/assets/images/sub3.jpeg",
+      },
+    ],
+  },
+  {
+    id: "JDV 08",
+    productName: "Venture cargo pant",
+    slug: "venture-cargo-pant",
+    isInStock: "In Stock",
+    size: ["XS", "S", "M", "L", "XL", "XXL"],
+    price: 5500,
+    installment: [
+      {
+        id: 1,
+        name: "KOKO",
+        numOfInstallments: 3,
+        brandImg: "/assets/images/koko.png",
+      },
+    ],
+    images: [
+      { imgUri: "/assets/images/pants3.jpeg", isMain: true },
       {
         imgUri: "/assets/images/sub1.jpeg",
       },
