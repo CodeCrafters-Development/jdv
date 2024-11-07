@@ -1,5 +1,5 @@
 import ProductArray from "../components/product-array";
-import { productsWomen, productsMen } from "../lib/data";
+import { productsWomen, productsMen, cargoPants } from "../lib/data";
 import { getRoundedNumber } from "../lib/utils";
 
 const Home = () => {
@@ -115,11 +115,17 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="px-10 xl:px-20 flex flex-col items-center justify-center py-10 gap-y-[19px]">
+      {/* <section className="px-10 xl:px-20 flex flex-col items-center justify-center py-10 gap-y-[19px]">
         <h2 className="text-h2Mobile xl:text-h2Desktop font-PlayfairDisplay">
           JDV Premium Collection
         </h2>
         <ProductArray productsList={productsWomen} link="/women" />
+      </section> */}
+      <section className="px-10 xl:px-20 flex flex-col items-center justify-center py-10 gap-y-[19px]">
+        <h2 className="text-h2Mobile xl:text-h2Desktop font-PlayfairDisplay">
+          JDV Pants Collection
+        </h2>
+        <ProductArray productsList={cargoPants} link="/women" />
       </section>
     </main>
   );
