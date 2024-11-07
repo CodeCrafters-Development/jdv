@@ -1,4 +1,4 @@
-import React, { createContext, useContext, ReactNode } from "react";
+import { createContext, useContext, ReactNode } from "react";
 import { ProductType } from "../lib/types"; // Adjust this path as needed
 import { allProducts } from "../lib/data";
 
