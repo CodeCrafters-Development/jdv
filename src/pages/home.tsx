@@ -49,7 +49,7 @@ const Home = () => {
         <h2 className="text-h2Mobile xl:text-h2Desktop font-PlayfairDisplay">
           Recently Released
         </h2>
-        <ProductArray productsList={productsMen} link="/mens" />
+        <ProductArray productsList={productsMen} link="/men/shirts" />
       </section>
       <section className="px-2 md:px-15 lg:px-20 flex flex-col md:flex-row items-center justify-center py-10 gap-y-4 md:gap-x-4">
         <div className="relative w-full md:w-[75%] h-[230px] sm:h-[290px] md:h-[320px] lg:h-[500px] bg-primary rounded-3xl md:rounded-xl overflow-hidden">
