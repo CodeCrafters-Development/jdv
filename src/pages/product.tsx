@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import ImageGallery from "../components/image-gallery";
 // import { singleProduct } from "../lib/data";
 import React, { useState } from "react";
-import { getRoundedNumber } from "../lib/utils";
+// import { getRoundedNumber } from "../lib/utils";
 import { useProducts } from "../providers/productProvider";
 import { ProductType } from "../lib/types";
 

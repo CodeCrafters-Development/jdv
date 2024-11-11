@@ -1,11 +1,11 @@
 import { ProductType } from "../lib/types";
-import { getRoundedNumber } from "../lib/utils";
+// import { getRoundedNumber } from "../lib/utils";
 
 const ProductCard = ({
   id,
   slug,
   images,
-  installment,
+  // installment,
   price,
   productName,
 }: ProductType) => {
