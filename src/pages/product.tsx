@@ -66,7 +66,7 @@ const Product = () => {
                 ))}
               </div>
             </div>
-            <div>
+            {/* <div>
               <h4 className="text-2xl">LKR {product.price}</h4>
               <div className="flex items-center gap-x-1">
                 <p className="text-xs">
@@ -81,7 +81,7 @@ const Product = () => {
                   className="h-[16px] lg:h-[18px]"
                 />
               </div>
-            </div>
+            </div> */}
             <div className="flex w-full gap-x-4">
               <a
                 href="/"

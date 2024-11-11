@@ -26,7 +26,7 @@ const ProductCard = ({
           <span className="text-[14px] lg:text-[20px]">
             LKR{" " + new Intl.NumberFormat().format(price)}
           </span>
-          <div className="lg:flex gap-x-1">
+          {/* <div className="lg:flex gap-x-1">
             <span className="text-xs lg:text-sm text-gray-500/60">
               or pay in 3 x{" "}
               <span className="font-bold">
@@ -41,7 +41,7 @@ const ProductCard = ({
                 className="h-[16px] lg:h-[18px]"
               />
             </span>
-          </div>
+          </div> */}
         </div>
       </a>
     </div>
