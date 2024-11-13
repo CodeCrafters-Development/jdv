@@ -1,6 +1,6 @@
 import ProductArray from "../components/product-array";
 import { productsMen, cargoPants } from "../lib/data";
-import { getRoundedNumber } from "../lib/utils";
+// import { getRoundedNumber } from "../lib/utils";
 
 const Home = () => {
   return (
@@ -87,10 +87,10 @@ const Home = () => {
               <span className="font-NeueMontrealMedium">THE MONTH</span>
             </h2>
             <div className="absolute bottom-5 lg:bottom-10 text-primary gap-y-6 mt-4">
-              <p className="font-NeueMontrealMedium text-sm lg:text-base">
+              <p className="font-NeueMontrealMedium text-sm lg:text-base mb-3">
                 Black Leather with Chrome Handles
               </p>
-              <p className="font-NeueMontrealLight text-sm sm:text-base flex items-center gap-x-1 mb-3">
+              {/* <p className="font-NeueMontrealLight text-sm sm:text-base flex items-center gap-x-1 mb-3">
                 LKR {new Intl.NumberFormat().format(4000)}
                 <span className="text-xs ml-1">
                   or 3 x LKR{" "}
@@ -103,7 +103,7 @@ const Home = () => {
                     className="w-[20px] sm:w-[26px]"
                   />
                 </span>
-              </p>
+              </p> */}
               <div>
                 <a href="/">
                   <span className="px-5 py-2 sm:px-10 sm:py-2 md:px-10 bg-primary text-secondary font-NeueMontrealMedium">
