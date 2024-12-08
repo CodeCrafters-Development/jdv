@@ -14,9 +14,7 @@ const Home = () => {
                 Joy of Living
               </h1>
               <p className="max-xl:font-semibold max-xl:text-center text-[18px] text-primary xl:text-secondary">
-                Lorem ipsum dolor sit amet consectetur. Blandit fermentum
-                posuere volutpat in lorem purus rhoncus laoreet sapien. Placerat
-                at turpis.
+              Embrace the elegance of everyday life with our exclusive collection of luxury apparel. Meticulously crafted for those who value style, comfort, and sophistication. Redefine your wardrobe with timeless pieces that celebrate the art of living beautifully.
               </p>
               <div>
                 <a href="/">
@@ -60,8 +58,7 @@ const Home = () => {
           <div className="absolute left-6 z-20 h-full w-[80%] flex items-start justify-center flex-col gap-y-4">
             <h2 className="h2-text text-secondary">Our Latest Collection</h2>
             <p className="p-text w-[90%] lg:w-[80%] lg:text-[20px] mb-3 font-NeueMontrealLight font-bold text-secondary">
-              Lorem ipsum dolor sit amet consectetur. Cras diam massa venenatis
-              donec ut ut elementum leo et.
+            Discover the essence of modern luxury in our latest collection. From refined classics to bold contemporary designs, each piece is crafted to elevate your style. Explore unparalleled sophistication and find your signature look today.
             </p>
             <div>
               <a href="/">
