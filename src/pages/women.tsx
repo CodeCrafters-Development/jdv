@@ -9,7 +9,7 @@ const Women = () => {
             Women’s Collection will <br /> be released soon
           </>
         }
-        description="Lorem ipsum dolor sit amet consectetur. Blandit fermentum posuere volutpat in lorem purus rhoncus laoreet sapien. Placerat at turpis."
+        description="A new era of elegance is on its way. Our upcoming Women’s Collection features exquisite designs tailored to inspire confidence and sophistication. Stay tuned for the grand reveal."
         link="/"
       />
     </main>
