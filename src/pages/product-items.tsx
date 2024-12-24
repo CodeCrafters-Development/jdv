@@ -1,16 +1,16 @@
 import ProductArray from "../components/product-array";
-import { productsMen } from "../lib/data";
-import { pageMetadataTypes } from "../lib/types";
+import { ProductType, pageMetadataTypes } from "../lib/types";
 
 type ProductItemsProps = {
   metadata: pageMetadataTypes;
+  products: ProductType[]
 };
 
-const ProductItems = ({ metadata }: ProductItemsProps) => {
+const ProductItems = ({ metadata, products }: ProductItemsProps) => {
   return (
     <main>
       <section className="px-5 lg:px-20 ">
-        <div className="h-[60px] md:h-[100px] bg-blue-500"></div>
+        <div className="h-[60px] md:h-[100px]"></div>
         <div className="w-full flex flex-col gap-y-6 pb-3 md:pt-5 items-center justify-center text-center">
           <h1 className="text-4xl md:text-h2Desktop font-PlayfairDisplay font-medium">
             {metadata.title}
@@ -23,7 +23,7 @@ const ProductItems = ({ metadata }: ProductItemsProps) => {
       </section>
       <section className="px-5 lg:px-20 py-10">
         {/* TODO: Implement product fetch */}
-        <ProductArray productsList={productsMen} />
+        <ProductArray productsList={products} />
       </section>
     </main>
   );

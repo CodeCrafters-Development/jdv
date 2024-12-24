@@ -4,7 +4,7 @@ import BaseLayout from "./layout/base-layout";
 import Women from "./pages/women";
 import Kids from "./pages/kids";
 import ProductItems from "./pages/product-items";
-import { pageMetadata } from "./lib/data";
+import { cargoPants, pageMetadata, productsMen } from "./lib/data";
 import Product from "./pages/product";
 import { ProductsProvider } from "./providers/productProvider";
 
@@ -19,8 +19,12 @@ function App() {
       ),
     },
     {
-      path: "/women",
-      element: <Women />,
+      path: "/women/pants",
+      element: (
+        <BaseLayout>
+          <ProductItems metadata={pageMetadata[3]} products={cargoPants} />
+        </BaseLayout>
+      ),
     },
     {
       path: "/kids",
@@ -30,7 +34,7 @@ function App() {
       path: "/men/shirts",
       element: (
         <BaseLayout>
-          <ProductItems metadata={pageMetadata[1]} />
+          <ProductItems metadata={pageMetadata[1]} products={productsMen} />
         </BaseLayout>
       ),
     },
@@ -38,7 +42,7 @@ function App() {
       path: "/men/t-shirts",
       element: (
         <BaseLayout>
-          <ProductItems metadata={pageMetadata[2]} />
+          <ProductItems metadata={pageMetadata[2]} products={productsMen} />
         </BaseLayout>
       ),
     },
