@@ -1,7 +1,14 @@
 import { NavigationLinkTypes, ProductType, pageMetadataTypes } from "./types";
 
 export const navlinks: NavigationLinkTypes[] = [
-  { name: "Women", href: "/women", hasSub: false },
+  { 
+    name: "Women", 
+    href: "/women", 
+    hasSub: true,
+    subLinks: [
+      { name: "Pants", href: "/women/pants" },
+    ],
+  },
   {
     name: "Men",
     href: "/men",
@@ -307,19 +314,25 @@ export const pageMetadata: pageMetadataTypes[] = [
   {
     title: "Men",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Blandit fermentum posuere volutpat in lorem purus rhoncus laoreet sapien. Placerat at turpis lacus id mattis donec.",
+      "Explore our curated collection for men, where timeless elegance meets modern sophistication. From premium fabrics to impeccable tailoring, redefine your wardrobe with our exclusive range.",
   },
   {
     title: "Shirts",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Blandit fermentum posuere volutpat in lorem purus rhoncus laoreet sapien. Placerat at turpis lacus id mattis donec.",
+      "Discover our luxurious selection of men's shirts, crafted from the finest materials. Whether for business or leisure, our designs offer unparalleled comfort and effortless style.",
   },
   {
     title: "T-Shirts",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Blandit fermentum posuere volutpat in lorem purus rhoncus laoreet sapien. Placerat at turpis lacus id mattis donec.",
+      "Elevate your casual wardrobe with our premium T-shirts. Designed for both comfort and style, each piece reflects a perfect blend of contemporary trends and timeless appeal.",
+  },
+  {
+    title: "Pants",
+    description:
+      "Redefine versatility with our collection of men's pants, tailored to perfection. From sleek chinos to classic trousers, experience unparalleled comfort and refined aesthetics.",
   },
 ];
+
 
 export const singleProduct: ProductType = {
   id: "JDV 01",
