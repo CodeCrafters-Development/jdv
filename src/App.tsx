@@ -1,7 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/home";
 import BaseLayout from "./layout/base-layout";
-import Women from "./pages/women";
 import Kids from "./pages/kids";
 import ProductItems from "./pages/product-items";
 import { cargoPants, pageMetadata, productsMen } from "./lib/data";
