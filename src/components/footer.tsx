@@ -18,7 +18,9 @@ const Footer = () => {
               <LuFacebook />
             </span>
             <span className="w-6 h-6 bg-white/30 rounded-full flex items-center justify-center">
-              <LuInstagram />
+              <a href="https://www.instagram.com/jdv_joy_of_living" target="_blank">
+                <LuInstagram />
+              </a>
             </span>
           </div>
         </div>

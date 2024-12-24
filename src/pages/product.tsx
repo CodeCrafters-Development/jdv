@@ -84,7 +84,8 @@ const Product = () => {
             </div> */}
             <div className="flex w-full gap-x-4">
               <a
-                href="/"
+                href="https://wa.me/+94778144521"
+                target="_blank"
                 className="bg-primary text-secondary font-NeueMontrealMedium w-full text-center py-3 lg:w-[252px]"
               >
                 Call for Inquiry
