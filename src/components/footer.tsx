@@ -1,4 +1,4 @@
-import { LuFacebook, LuInstagram, LuMail, LuPhone } from "react-icons/lu";
+import { LuInstagram, LuPhone } from "react-icons/lu";
 
 const Footer = () => {
   return (
