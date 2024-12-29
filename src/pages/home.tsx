@@ -10,7 +10,7 @@ const Home = () => {
         <div className="w-full h-full flex max-xl:items-start max-xl:justify-center max-xl:z-0 xl:bg-primary xl:h-[80%]">
           <div className="max-xl:group max-xl:absolute max-xl:z-10 h-[80%] xl:h-full w-[80%] flex items-center xl:items-start justify-center flex-col gap-y-10 xl:gap-y-4">
             <div className="xl:mx-auto md:w-[50%] xl:w-[500px] h-fit xl:h-[50%] flex flex-col items-center gap-y-4 md:gap-y-5 xl:gap-y-[16px] xl:items-start xl:justify-evenly xl:bg-hero-backdrop">
-              <h1 className="font-PlayfairDisplay -tracking-[5px] leading-[127.97px] text-h1Mobile xl:text-h1Desktop font-semibold text-primary xl:text-secondary">
+              <h1 className="font-playwrite -tracking-[5px] leading-[127.97px] text-h1Mobile xl:text-h1Desktop font-semibold text-primary xl:text-secondary">
                 Joy of Living
               </h1>
               <p className="max-xl:font-semibold max-xl:text-center text-[18px] text-primary xl:text-secondary">
@@ -57,7 +57,7 @@ const Home = () => {
           />
           <div className="absolute left-6 z-20 h-full w-[80%] flex items-start justify-center flex-col gap-y-4">
             <h2 className="h2-text text-secondary">Our Latest Collection</h2>
-            <p className="p-text w-[90%] lg:w-[80%] lg:text-[20px] mb-3 font-NeueMontrealLight font-bold text-secondary">
+            <p className="p-text-[6px] w-[90%] lg:w-[90%] lg:text-[20px] mb-3 font-NeueMontrealLight font-bold text-secondary">
             Discover the essence of modern luxury in our latest collection. From refined classics to bold contemporary designs, each piece is crafted to elevate your style. Explore unparalleled sophistication and find your signature look today.
             </p>
             <div>
@@ -69,7 +69,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-full md:w-[40%] h-[230px] sm:h-[290px] md:h-[320px] lg:h-[500px] bg-secondary rounded-3xl md:rounded-xl overflow-hidden">
+        {/* <div className="relative w-full md:w-[40%] h-[230px] sm:h-[290px] md:h-[320px] lg:h-[500px] bg-secondary rounded-3xl md:rounded-xl overflow-hidden">
           <img
             src="/assets/images/bestSeller.png"
             className="absolute z-10 -left-10 md:left-20 lg:hidden object-cover h-[230px] sm:h-[290px] md:h-[320px] lg:h-[500px]"
@@ -87,20 +87,6 @@ const Home = () => {
               <p className="font-NeueMontrealMedium text-sm lg:text-base mb-3">
                 Black Leather with Chrome Handles
               </p>
-              {/* <p className="font-NeueMontrealLight text-sm sm:text-base flex items-center gap-x-1 mb-3">
-                LKR {new Intl.NumberFormat().format(4000)}
-                <span className="text-xs ml-1">
-                  or 3 x LKR{" "}
-                  {new Intl.NumberFormat().format(getRoundedNumber(4000))}
-                </span>
-                <span className="flex items-center text-xs sm:text-sm gap-x-1">
-                  with
-                  <img
-                    src="/assets/images/koko.png"
-                    className="w-[20px] sm:w-[26px]"
-                  />
-                </span>
-              </p> */}
               <div>
                 <a href="/">
                   <span className="px-5 py-2 sm:px-10 sm:py-2 md:px-10 bg-primary text-secondary font-NeueMontrealMedium">
@@ -110,7 +96,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       {/* <section className="px-10 xl:px-20 flex flex-col items-center justify-center py-10 gap-y-[19px]">
         <h2 className="text-h2Mobile xl:text-h2Desktop font-PlayfairDisplay">
