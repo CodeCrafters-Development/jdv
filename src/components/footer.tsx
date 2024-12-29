@@ -9,7 +9,9 @@ const Footer = () => {
           <hr className="bg-white/20 w-full h-[1px]" />
           <div className="w-full flex items-center justify-center gap-x-4">
             <span className="w-6 h-6 bg-white/30 rounded-full flex items-center justify-center">
-              <LuPhone className="text-white" />
+              <a href="tel:+94778144521">
+                <LuPhone className="text-white" />
+              </a>
             </span>
             <span className="w-6 h-6 bg-white/30 rounded-full flex items-center justify-center">
               <a href="https://www.instagram.com/jdv_joy_of_living" target="_blank">

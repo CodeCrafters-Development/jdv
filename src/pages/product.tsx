@@ -43,6 +43,9 @@ const Product = () => {
                 {product.isInStock}
               </p>
             </div>
+            <div className="flex flex-col gap-y-2">
+              <p className="text-base font-medium">{product.description}</p>
+            </div>
             <div className="flex flex-col gap-y-2 font-NeueMontrealLight font-bold">
               <p>Size:</p>
               <div className="flex gap-x-4">
