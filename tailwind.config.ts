@@ -9,6 +9,7 @@ const config: Config = {
       NeueMontrealMedium: ["NeueMontreal-Medium", "sans"],
       NeueMontrealBold: ["NeueMontreal-Bold", "sans"],
       PlayfairDisplay: ["Playfair Display", "sans"],
+      playwrite: ['"Playwrite AU VIC Guides"', 'serif'],
     },
     extend: {
       fontSize: {

@@ -12,12 +12,6 @@ const Footer = () => {
               <LuPhone className="text-white" />
             </span>
             <span className="w-6 h-6 bg-white/30 rounded-full flex items-center justify-center">
-              <LuMail />
-            </span>
-            <span className="w-6 h-6 bg-white/30 rounded-full flex items-center justify-center">
-              <LuFacebook />
-            </span>
-            <span className="w-6 h-6 bg-white/30 rounded-full flex items-center justify-center">
               <a href="https://www.instagram.com/jdv_joy_of_living" target="_blank">
                 <LuInstagram />
               </a>
