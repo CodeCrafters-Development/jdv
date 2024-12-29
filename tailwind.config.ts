@@ -10,6 +10,7 @@ const config: Config = {
       NeueMontrealBold: ["NeueMontreal-Bold", "sans"],
       PlayfairDisplay: ["Playfair Display", "sans"],
       playwrite: ['"Playwrite AU VIC Guides"', 'serif'],
+      dancingScript: ['"Dancing Script"', 'serif'],
     },
     extend: {
       fontSize: {

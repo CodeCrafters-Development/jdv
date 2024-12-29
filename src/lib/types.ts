@@ -19,6 +19,7 @@ export type ProductType = {
   id: string;
   productName: string;
   slug: string;
+  description: string;
   isInStock: "In Stock" | "Out of Stock";
   size: string[];
   price: number;

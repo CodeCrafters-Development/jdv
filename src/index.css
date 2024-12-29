@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+AU+VIC+Guides&family=Playwrite+FR+Moderne+Guides&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,6 +8,12 @@
 
 @font-face {
   font-family: "Playwrite AU VIC Guides";
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dancing Script";
   font-weight: 400;
   font-style: normal;
 }
