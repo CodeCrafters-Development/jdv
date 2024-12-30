@@ -248,7 +248,7 @@ export const cargoPants: ProductType[] = [
       },
     ],
     images: [
-      { imgUri: "/assets/images/pants1.jpeg", isMain: true },
+      { imgUri: "/assets/images/pants1-new.jpeg", isMain: true },
       {
         imgUri: "/assets/images/sub1.jpeg",
       },
@@ -473,7 +473,7 @@ export const allProducts: ProductType[] = [
       },
     ],
     images: [
-      { imgUri: "/assets/images/pants1.jpeg", isMain: true },
+      { imgUri: "/assets/images/pants1-new.jpeg", isMain: true },
     ],
   },
   {
