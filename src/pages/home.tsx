@@ -1,6 +1,5 @@
 import ProductArray from "../components/product-array";
 import { productsMen, cargoPants } from "../lib/data";
-// import { getRoundedNumber } from "../lib/utils";
 
 const Home = () => {
   return (
