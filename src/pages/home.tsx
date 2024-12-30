@@ -50,10 +50,10 @@ const Home = () => {
         <ProductArray productsList={productsMen} link="/men/shirts" />
       </section>
       <section className="px-2 md:px-15 lg:px-20 flex flex-col md:flex-row items-center justify-center py-10 gap-y-4 md:gap-x-4">
-        <div className="relative w-full md:w-[75%] h-[230px] sm:h-[290px] md:h-[320px] lg:h-[500px] bg-primary rounded-3xl md:rounded-xl overflow-hidden">
+        <div className="relative w-full md:w-[75%] h-[330px] sm:h-[290px] md:h-[320px] lg:h-[500px] bg-primary rounded-3xl md:rounded-xl overflow-hidden">
           <img
             src="/assets/images/latestCard.png"
-            className="absolute z-10 right-0 md object-cover h-[230px] sm:h-[290px] md:h-[320px] lg:h-[500px]"
+            className="absolute z-10 right-0 md object-cover h-[330px] sm:h-[290px] md:h-[320px] lg:h-[500px]"
           />
           <div className="absolute left-6 z-20 h-full w-[80%] flex items-start justify-center flex-col gap-y-4">
             <h2 className="h2-text text-secondary">Our Latest Collection</h2>
